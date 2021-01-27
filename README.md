@@ -8,7 +8,7 @@ Simplest Example is finding the price of your house. No. of bedrooms 2 (this is 
 Linear regression creates an equation in which we input the given number (x) and outputs target variable that you want to find (y). We can obtain the equation by training it on pairs of (x,y) values. A dataset can be used containing historic records of house purchases in the form of ("Number of Bedrooms", "Selling Price")
 
 <p align="center" width="100%">
-    <src="https://github.com/absolutelyharsh/Linear_Regression/blob/main/Images/Dataset_1.png"> 
+    <img src="https://github.com/absolutelyharsh/Linear_Regression/blob/main/Images/Dataset_1.png"> 
 </p>
 
 We can visualize the data points on a scatter plot to see if there are any new trends. A Scatter plot is 2D plot with each point representating a house. 
@@ -16,7 +16,7 @@ We can visualize the data points on a scatter plot to see if there are any new t
 On the x-axis "Number of bedrooms" and on the y-axis "Selling Price" for the same houses
 
 <p align="center" width="100%">
-    <src="https://github.com/absolutelyharsh/Linear_Regression/blob/main/Images/Dataset1_Scatter.png"> 
+    <img src="https://github.com/absolutelyharsh/Linear_Regression/blob/main/Images/Dataset1_Scatter.png"> 
 </p>
 
 We can see that there is a trend in the image above, more bedrooms result in a higher selling price. Considering a linear regression model is trained to get an equation of form:
@@ -28,7 +28,7 @@ We can see that there is a trend in the image above, more bedrooms result in a h
 We can also visualize graphiically what woud be the price for houses with different number of bedrooms 
 
 <p align="center" width="100%">
-    <src="https://github.com/absolutelyharsh/Linear_Regression/blob/main/Images/Dataset1_Linear.png"> 
+    <img src="https://github.com/absolutelyharsh/Linear_Regression/blob/main/Images/Dataset1_Linear.png"> 
 </p>
 
 ## Linear Regression Model Representation withh Regression Equation
@@ -36,7 +36,7 @@ We can also visualize graphiically what woud be the price for houses with differ
 Once a linear regression mode is trainned the model forms a linear regression equation of the type
 
 <p align="center" width="100%">
-    <src="https://github.com/absolutelyharsh/Linear_Regression/blob/main/Images/Linear_Regression_Equation.png"> 
+    <img src="https://github.com/absolutelyharsh/Linear_Regression/blob/main/Images/Linear_Regression_Equation.png"> 
 </p>
 
 In the above equation:
@@ -60,7 +60,7 @@ Both simple and multiple linear regressions assume that there is a linear relati
 The main difference is the number of independent variables that they take as inputs. Simple linear regression just takes a single feature, while multiple linear regression takes multiple x values. The above formula can be rewritten for a model with n-input variables as:
 
 <p align="center" width="100%">
-    <src="https://github.com/absolutelyharsh/Linear_Regression/blob/main/Images/Simple_Multiple_Diagram.png"> 
+    <img src="https://github.com/absolutelyharsh/Linear_Regression/blob/main/Images/Simple_Multiple_Diagram.png"> 
 </p>
 
 Despite their differences, both the simple and multiple regression models are linear models - they adopt the form of a linear equation. This is called the linear assumption. Quite simply, it means that we assume that the type of relationship between the set of independent variables and independent features is linear.
@@ -76,7 +76,7 @@ The Ordinary Least Squares procedure has four main steps in machine learning:
 2. Input the initialized weights into the linear equation and generate a prediction for each observation point. To continue with the example that we’ve already used:
 
 <p align="center" width="100%">
-    <src="https://github.com/absolutelyharsh/Linear_Regression/blob/main/Images/Residuals_Dataset.png"> 
+    <img src="https://github.com/absolutelyharsh/Linear_Regression/blob/main/Images/Residuals_Dataset.png"> 
 </p>
 
 3. Calculate the Residual Sum of Squares (RSS).
@@ -84,13 +84,13 @@ The Ordinary Least Squares procedure has four main steps in machine learning:
 a) Residuals, or error terms, are the difference between each actual output and the  predicted output. They are a point-by-point estimate of how well our regression function predicts outputs in comparison to true values. We obtain residuals by calculating *actual values - predicted values* for each observation.
 
 <p align="center" width="100%">
-    <src="https://github.com/absolutelyharsh/Linear_Regression/blob/main/Images/Residuals_Dataset_1.png"> 
+    <img src="https://github.com/absolutelyharsh/Linear_Regression/blob/main/Images/Residuals_Dataset_1.png"> 
 </p>
 
 b) We square the residuals (in other words, we compute residual2 for each observation point).
 
 <p align="center" width="100%">
-    <src="https://github.com/absolutelyharsh/Linear_Regression/blob/main/Images/Residuals_Dataset_Squared.png"> 
+    <img src="https://github.com/absolutelyharsh/Linear_Regression/blob/main/Images/Residuals_Dataset_Squared.png"> 
 </p>
 
 c) We sum the residuals to reach our RSS: 1,600,000,000 + 293,882,449 + 2,946,969,796 + 987,719,184 = 5,828,571,429.
@@ -98,7 +98,7 @@ c) We sum the residuals to reach our RSS: 1,600,000,000 + 293,882,449 + 2,946,96
 d) The basis here is that a lower RSS means that our line of best fit comes closer to each data point. The further away the trend line is from actual observations, the higher the RSS. So, the closer the actual values are (blue points) to the regression line (red line), the better (the green lines representing residuals will be shorter).
 
 <p align="center" width="100%">
-    <src="https://github.com/absolutelyharsh/Linear_Regression/blob/main/Images/Residuals_Dataset_Plot.png"> 
+    <img src="https://github.com/absolutelyharsh/Linear_Regression/blob/main/Images/Residuals_Dataset_Plot.png"> 
 </p>
     
 4. Model parameter selection to minimize RSS. Machine learning approaches find the best parameters for the linear model by defining a cost function and minimizing it via gradient descent. By doing so, we obtain the best possible values for the weights.
@@ -121,13 +121,13 @@ Based on the slope, gradient descent updates the values for the set of weights a
 This iterative approach is repeated until a minimum error is reached, and gradient descent cannot minimize the cost function any further.
 
 <p align="center" width="100%">
-    <src="https://github.com/absolutelyharsh/Linear_Regression/blob/main/Images/gradient_Descent.jpg"> 
+    <img src="https://github.com/absolutelyharsh/Linear_Regression/blob/main/Images/gradient_Descent.jpg"> 
 </p>
     
 The results are optimal weights for the problem at hand. There is, however, one consideration to bear in mind when using gradient descent: the hyperparameter learning rate. The learning rate refers to how much the parameters are changed at each iteration. If the learning rate is too high, the model fails to converge and jumps from good to bad cost optimizations. If the learning rate is too low, the model will take too long to converge to the minimum error.
 
 <p align="center" width="100%">
-    <src="https://github.com/absolutelyharsh/Linear_Regression/blob/main/Images/gradient_descent_2.png"> 
+    <img src="https://github.com/absolutelyharsh/Linear_Regression/blob/main/Images/gradient_descent_2.png"> 
 </p>
     
 ## Model Evaluation
