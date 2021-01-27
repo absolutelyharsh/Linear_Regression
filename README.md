@@ -60,10 +60,14 @@ Both simple and multiple linear regressions assume that there is a linear relati
 The main difference is the number of independent variables that they take as inputs. Simple linear regression just takes a single feature, while multiple linear regression takes multiple x values. The above formula can be rewritten for a model with n-input variables as:
 
 <p align="center" width="100%">
+    <img src="https://github.com/absolutelyharsh/Linear_Regression/blob/main/Images/Multiple_Linear_Regression_Equation"> 
+</p>
+ 
+Despite their differences, both the simple and multiple regression models are linear models - they adopt the form of a linear equation. This is called the linear assumption. Quite simply, it means that we assume that the type of relationship between the set of independent variables and independent features is linear.
+
+<p align="center" width="100%">
     <img src="https://github.com/absolutelyharsh/Linear_Regression/blob/main/Images/Simple_Multiple_Diagram.png"> 
 </p>
-
-Despite their differences, both the simple and multiple regression models are linear models - they adopt the form of a linear equation. This is called the linear assumption. Quite simply, it means that we assume that the type of relationship between the set of independent variables and independent features is linear.
  
  ## Training A Lnear Regression Model
  
