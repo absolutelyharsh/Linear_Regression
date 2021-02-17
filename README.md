@@ -106,7 +106,7 @@ Here, α is called the learning rate. This is a very natural algorithm that repe
 Following would be the results for different learning rates:
 
 <p align="center" width="100%">
-    <img src="https://github.com/absolutelyharsh/Linear_Regression/blob/main/Images/gradient_Descent2.jpg"> 
+    <img src="https://github.com/absolutelyharsh/Linear_Regression/blob/main/Images/gradient_Descent_2.jpg"> 
 </p>
 
 ## Gradient Descent
